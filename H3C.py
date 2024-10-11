@@ -32,15 +32,15 @@ def batchCheck(filename):
 
 def banner():
     bannerinfo = """
-   _  __ ______________  ___  __
-  | |/ // ____/_  __/ / / / |/ /
-  |   // __/   / / / / / /|   / 
- /   |/ /___  / / / /_/ //   |  
-/_/|_/_____/ /_/  \____//_/|_|  
-
+    __  _______ ______
+   / / / /__  // ____/
+  / /_/ / /_ </ /     
+ / __  /___/ / /___   
+/_/ /_//____/\____/   
+                      
 """
     print(bannerinfo)
-    print("YYGRP-U8".center(100, '*'))
+    print("H3C".center(100, '*'))
     print(f"[+]{sys.argv[0]} --url htttp://www.xxx.com 即可进行单个漏洞检测")
     print(f"[+]{sys.argv[0]} --file targetUrl.txt 即可对选中文档中的网址进行批量检测")
     print(f"[+]{sys.argv[0]} --help 查看更多详细帮助信息")
